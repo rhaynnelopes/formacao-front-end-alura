@@ -1,11 +1,14 @@
 body {
     /* aplica em todo o corpo */
-    background: #f4f4f4
 }
 
 #banner {
     /* usa a # para referenciar um identificador */
     width: 100%;
+}
+
+.principal {
+    background: #f4f4f4;
 }
 
 h1 {
@@ -29,4 +32,12 @@ em strong {
 .itens {
     /* usa o . para referenciar uma classe */
     font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff
+}
+
+h2 {
+    text-align: center;
 }
