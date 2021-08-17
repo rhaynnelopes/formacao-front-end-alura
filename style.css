@@ -3,9 +3,17 @@ body {
     background: #f4f4f4
 }
 
+h1 {
+    text-align: center
+}
+
 p {
     /* aplica a formatação só nos paragrafos */
     text-align: center;
+}
+
+#missao {
+    font-size: 20px
 }
 
 em strong {
