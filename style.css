@@ -4,6 +4,7 @@ body {
 }
 
 #banner {
+    /* usa a # para referenciar um identificador */
     width: 100%;
 }
 
@@ -23,4 +24,9 @@ p {
 em strong {
     /* procura todos os 'strongs' dentro de um 'em' */
     color: red;
+}
+
+.itens {
+    /* usa o . para referenciar uma classe */
+    font-style: italic;
 }
