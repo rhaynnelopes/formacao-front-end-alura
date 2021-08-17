@@ -1,0 +1,20 @@
+    header {
+        background: #BBBBBB
+    }
+    
+    nav li {
+        display: inline;
+        margin: 0 0 0 15px;
+        /* ordem de margens: cima, direita, baixo, esquerda */
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        /* transforma as letras em capslock */
+        color: #000000;
+        font-weight: bold;
+        /* deixa o texto com aspecto em negrito */
+        font-size: 22px;
+        text-decoration: none;
+        /* retira as decorações do texto. nesse caso, retirou o sublinhado */
+    }
