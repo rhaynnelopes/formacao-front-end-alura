@@ -1,3 +1,14 @@
+body {
+    /* aplica em todo o corpo */
+    background: #f4f4f4
+}
+
 p {
-    text-align: center
+    /* aplica a formatação só nos paragrafos */
+    text-align: center;
+}
+
+em strong {
+    /* procura todos os 'strongs' dentro de um 'em' */
+    color: red;
 }
