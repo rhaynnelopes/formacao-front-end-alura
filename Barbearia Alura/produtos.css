@@ -2,25 +2,25 @@
         background: #BBBBBB;
         padding: 20px 0;
     }
-    
+
     .caixa {
         width: 940px;
         position: relative;
         margin: auto;
     }
-    
+
     nav {
         position: absolute;
         top: 110px;
         right: 0;
     }
-    
+
     nav li {
         display: inline;
         margin: 0 0 0 15px;
         /* ordem de margens: cima, direita, baixo, esquerda */
     }
-    
+
     nav a {
         text-transform: uppercase;
         /* transforma as letras em capslock */
@@ -31,3 +31,32 @@
         text-decoration: none;
         /* retira as decorações do texto. nesse caso, retirou o sublinhado */
     }
+
+    .produtos {
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    .produtos li {
+        display: inline-block;
+        text-align: center;
+        width: 33%;
+        vertical-align: top;
+    }
+
+    .produtos h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .produto-descricao {
+        font-size: 18px;
+    }
+
+    .produto-preco {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    
