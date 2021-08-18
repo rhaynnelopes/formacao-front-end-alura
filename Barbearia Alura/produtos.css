@@ -32,10 +32,8 @@
         /* retira as decorações do texto. nesse caso, retirou o sublinhado */
     }
     nav a:hover {
-
-        color: #1b3295;
+        color: #0388f5;
         text-decoration: underline;
-
     }
 
     .produtos {
@@ -54,6 +52,18 @@
         box-sizing: border-box;
         border: 2px solid #CCCCCC;
         border-radius: 10px;
+    }
+
+    .produtos li:hover {
+        border-color: #0388f5;
+    }
+
+    .produtos li:active {
+        border-color: rgb(0, 204, 255);
+    }
+
+    .produtos li:hover h2 {
+        font-size: 34px
     }
 
     .produtos h2 {
