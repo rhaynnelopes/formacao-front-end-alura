@@ -47,6 +47,7 @@
         padding: 30px 20px;
         box-sizing: border-box;
         border: 2px solid #CCCCCC;
+        border-radius: 10px;
     }
 
     .produtos h2 {
