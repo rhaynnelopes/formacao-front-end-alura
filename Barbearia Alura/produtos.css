@@ -49,7 +49,7 @@
         vertical-align: top;
         margin: 0 1.5%;
         padding: 30px 20px;
-        box-sizing: border-box;
+        box-sizing: border-box; /* Usamos para que a % de margem esteja dentro dos px que definimos no padding */
         border: 2px solid #CCCCCC;
         border-radius: 10px;
     }
