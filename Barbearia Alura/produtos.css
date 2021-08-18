@@ -31,6 +31,12 @@
         text-decoration: none;
         /* retira as decorações do texto. nesse caso, retirou o sublinhado */
     }
+    nav a:hover {
+
+        color: #1b3295;
+        text-decoration: underline;
+
+    }
 
     .produtos {
         width: 940px;
