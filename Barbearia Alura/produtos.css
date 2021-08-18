@@ -54,11 +54,11 @@
         border-radius: 10px;
     }
 
-    .produtos li:hover {
+    .produtos li:hover { /* comportamento do item ao passar o mouse */
         border-color: #0388f5;
     }
 
-    .produtos li:active {
+    .produtos li:active { /* comportamento do item ao ser clicado */
         border-color: rgb(0, 204, 255);
     }
 
@@ -84,6 +84,7 @@
     footer {
         text-align: center;
         background: url("images-produtos/bg.jpg");
+        /* maneira de colocar uma imagem no footer */ 
         padding: 40px;
     }
 
