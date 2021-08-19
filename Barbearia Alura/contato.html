@@ -35,7 +35,25 @@
             <label for="telefone">Telefone</label>
             <input type="number" id="telefone">
 
-            <input type="submit" value="Enviar formulário">
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="50" rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">E-mail</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="Telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">
+
+                <input type="submit" value="Enviar formulário">
+            </div>
+
+            <label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
         </form>
     </main>
 
