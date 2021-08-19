@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Produtos - Barbearia Alura</title>
+    <title>Contato - Barbearia Alura</title>
     <link rel="stylesheet" href="reset.css">
     <!-- o reset vem primeiro pois primeiro limpamos e depois inserimos o estilo -->
     <link rel="stylesheet" href="style.css">
@@ -25,26 +25,18 @@
     </header>
 
     <main>
-        <ul class="produtos">
-            <li>
-                <h2>Cabelo</h2>
-                <img src="images-produtos/cabelo.jpg">
-                <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-                <p class="produto-preco">R$ 25,00</p>
-            </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="images-produtos/barba.jpg">
-                <p class="produto-descricao">Corte e desenho profissional de barba</p>
-                <p class="produto-preco">R$ 18,00</p>
-            </li>
-            <li>
-                <h2>Cabelo + barba</h2>
-                <img src="images-produtos/cabelo+barba.jpg">
-                <p class="produto-descricao">Pacote completo de cabelo e barba</p>
-                <p class="produto-preco">R$ 35,00</p>
-            </li>
-        </ul>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone">
+
+            <input type="submit" value="Enviar formulário">
+        </form>
     </main>
 
     <footer>

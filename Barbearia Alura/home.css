@@ -1,0 +1,65 @@
+#banner {
+    /* usa a # para referenciar um identificador */
+    width: 100%;
+}
+
+.principal {
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+p {
+    /* aplica a formatação só nos paragrafos */
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    /* procura todos os 'strongs' dentro de um 'em' */
+    color: red;
+}
+
+.itens {
+    /* usa o . para referenciar uma classe */
+    font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 20px
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("images-produtos/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
