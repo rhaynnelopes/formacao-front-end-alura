@@ -210,6 +210,20 @@
        font-style: italic;
    }
 
+   .mapa {
+       padding: 3em 0;
+   }
+
+   .mapa p {
+       text-align: center;
+       margin:  0 0 2em;
+   }
+
+   .mapa iframe {
+       width: 940px;
+       margin-bottom: 30px;
+   }
+
    .imagembeneficios {
        width: 60%;
        border-radius: 7px;
