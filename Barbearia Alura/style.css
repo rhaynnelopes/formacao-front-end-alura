@@ -1,205 +1,225 @@
    body {
-    font-family: 'Montserrat', sans-serif;
+       font-family: 'Montserrat', sans-serif;
    }
 
+   /* CSS do cabeçalho */
+
    header {
-        background: #BBBBBB;
-        padding: 20px 0;
-    }
-    
-    .caixa {
-        width: 940px;
-        position: relative;
-        margin: auto;
-    }
-    
-    nav {
-        position: absolute;
-        top: 110px;
-        right: 0;
-    }
-    
-    nav li {
-        display: inline;
-        margin: 0 0 0 15px;
-        /* ordem de margens: cima, direita, baixo, esquerda */
-    }
-    
-    nav a {
-        text-transform: uppercase;
-        /* transforma as letras em capslock */
-        color: #000000;
-        font-weight: bold;
-        /* deixa o texto com aspecto em negrito */
-        font-size: 22px;
-        text-decoration: none;
-        /* retira as decorações do texto. nesse caso, retirou o sublinhado */
-    }
-    
-    nav a:hover {
-        color: #0388f5;
-        text-decoration: underline;
-    }
-    
-    .produtos {
-        width: 940px;
-        margin: 0 auto;
-        padding: 50px 0;
-    }
-    
-    .produtos li {
-        display: inline-block;
-        text-align: center;
-        width: 30%;
-        vertical-align: top;
-        margin: 0 1.5%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        /* Usamos para que a % de margem esteja dentro dos px que definimos no padding */
-        border: 2px solid #CCCCCC;
-        border-radius: 10px;
-    }
-    
-    .produtos li:hover {
-        /* comportamento do item ao passar o mouse */
-        border-color: #0388f5;
-    }
-    
-    .produtos li:active {
-        /* comportamento do item ao ser clicado */
-        border-color: rgb(0, 204, 255);
-    }
-    
-    .produtos li:hover h2 {
-        font-size: 34px
-    }
-    
-    .produtos h2 {
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
-    .produto-descricao {
-        font-size: 18px;
-    }
-    
-    .produto-preco {
-        font-size: 22px;
-        font-weight: bold;
-        margin-top: 10px;
-    }
-    
-    footer {
-        text-align: center;
-        background: url("images-produtos/bg.jpg");
-        /* maneira de colocar uma imagem no footer */
-        padding: 40px;
-    }
-    
-    .copyright {
-        color: white;
-        font-size: 13px;
-        margin-top: 20px;
-    }
-    
-    main {
-        width: 940px;
-        margin: 0 auto;
-    }
-    
-    form {
-        margin: 40px 0;
-    }
-    
-    form label,
-    form legend {
-        display: block;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .input-padrao {
-        display: block;
-        margin-bottom: 20px;
-        padding: 7px 20px;
-        width: 35%;
-    }
-    
-    .checkbox {
-        margin: 20px 0;
-        /* 20px pra cima e pra baixo e 0 pra esquerda e direita */
-    }
+       background: #BBBBBB;
+       padding: 20px 0;
+   }
 
-    .enviar { /* configuração visual do botão de enviar formulário */
-        width: 30%; /* configuração de largura do botão */
-        padding: 10px 0; /* espaçamento superior e inferior entre o texto e a borda */
-        background-color: #0388f5;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        border: none; /* retirar a borda padrão */
-        border-radius: 3px; 
-        transition: 1s all; /* fazer com que a transição entre um background e outro seja mais devagar ou todos os efeitos (como a escala) */
-        cursor: pointer; /* altera o cursor que aparece quando colocamos o mouse em cima do enviar formulário */
-    }
+   .caixa {
+       width: 940px;
+       position: relative;
+       margin: auto;
+   }
 
-    .enviar:hover { /* efeito ao passar o mouse em cima do botão de enviar formulário */
-        background-color: #005da8; 
-        transform: scale(1.2);  /* aumenta proporcionalmente quando colocamos o mouse em cima (nesse caso, 20%) */
-        /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
+   nav {
+       position: absolute;
+       top: 110px;
+       right: 0;
+   }
 
-    }
+   nav li {
+       display: inline;
+       margin: 0 0 0 15px;
+       /* ordem de margens: cima, direita, baixo, esquerda */
+   }
 
-    table{
-        margin: 40px 0 40px 0;
-        font-size: 20px;
-    }
-    thead {
-        background-color: #0388f5;
-        font-size: 25px;
-        color: white;
-        font-weight: bold;
-    }
+   nav a {
+       text-transform: uppercase;
+       /* transforma as letras em capslock */
+       color: #000000;
+       font-weight: bold;
+       /* deixa o texto com aspecto em negrito */
+       font-size: 22px;
+       text-decoration: none;
+       /* retira as decorações do texto. nesse caso, retirou o sublinhado */
+   }
 
-    td, th { 
-        border: 1px solid #0388f5 ;
-        padding: 8px 20px ; /* 1 numero: para cima e para baixo. 2 numero: laterais */
-    }
+   nav a:hover {
+       color: #0388f5;
+       text-decoration: underline;
+   }
 
-    /* css da página inicial */
-    .banner {
-width: 100%;
-    }
+   /* CSS da página de produtos */
 
-    .titulo-principal {
-        text-align: center;
-        font-size: 2em; /* medida proporcional para pixel. exemplo: a fonte base é de 15px, se colocarmos 2em, a fonte será de 30px */
-        margin-bottom: 1em;
-        /* ordem das margens: cima, direita, baixo, esquerda */
-        clear: left; /* limpa o float usado em .utensilios para que não impacte o que está abaixo do float (colocamos o clear a partir do objeto que não queremos que seja alterado */
-    }
+   .produtos {
+       width: 940px;
+       margin: 0 auto;
+       padding: 50px 0;
+   }
 
-    .principal p {
-        margin-bottom: 1em;
-    }
+   .produtos li {
+       display: inline-block;
+       text-align: center;
+       width: 30%;
+       vertical-align: top;
+       margin: 0 1.5%;
+       padding: 30px 20px;
+       box-sizing: border-box;
+       /* Usamos para que a % de margem esteja dentro dos px que definimos no padding */
+       border: 2px solid #CCCCCC;
+       border-radius: 10px;
+   }
 
-    .principal strong {
-        font-weight: bold;
-    }
+   .produtos li:hover {
+       /* comportamento do item ao passar o mouse */
+       border-color: #0388f5;
+   }
 
-    .principal em {
-        font-style: italic;
-    }
+   .produtos li:active {
+       /* comportamento do item ao ser clicado */
+       border-color: rgb(0, 204, 255);
+   }
 
-    .imagembeneficios {
-        width: 60%;
-        border-radius: 7px;
-    }
+   .produtos li:hover h2 {
+       font-size: 34px
+   }
 
-    .utensilios {
-        width: 120px;
-        border-radius: 7px;
-        float: left;
-        margin-right: 20px;
-    }
-    
+   .produtos h2 {
+       font-size: 30px;
+       font-weight: bold;
+   }
+
+   .produto-descricao {
+       font-size: 18px;
+   }
+
+   .produto-preco {
+       font-size: 22px;
+       font-weight: bold;
+       margin-top: 10px;
+   }
+
+   /* CSS da página de contato */
+
+   main {
+       width: 940px;
+       margin: 0 auto;
+   }
+
+   form {
+       margin: 40px 0;
+   }
+
+   form label, form legend {
+       display: block;
+       font-size: 20px;
+       margin-bottom: 10px;
+   }
+
+   .input-padrao {
+       display: block;
+       margin-bottom: 20px;
+       padding: 7px 20px;
+       width: 35%;
+   }
+
+   .checkbox {
+       margin: 20px 0;
+       /* 20px pra cima e pra baixo e 0 pra esquerda e direita */
+   }
+
+   .enviar {
+       /* configuração visual do botão de enviar formulário */
+       width: 30%;
+       /* configuração de largura do botão */
+       padding: 10px 0;
+       /* espaçamento superior e inferior entre o texto e a borda */
+       background-color: #0388f5;
+       color: white;
+       font-weight: bold;
+       font-size: 18px;
+       border: none;
+       /* retirar a borda padrão */
+       border-radius: 3px;
+       transition: 1s all;
+       /* fazer com que a transição entre um background e outro seja mais devagar ou todos os efeitos (como a escala) */
+       cursor: pointer;
+       /* altera o cursor que aparece quando colocamos o mouse em cima do enviar formulário */
+   }
+
+   .enviar:hover {
+       /* efeito ao passar o mouse em cima do botão de enviar formulário */
+       background-color: #005da8;
+       transform: scale(1.2);
+       /* aumenta proporcionalmente quando colocamos o mouse em cima (nesse caso, 20%) */
+       /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
+   }
+
+   table {
+       margin: 40px 0 40px 0;
+       font-size: 20px;
+   }
+
+   thead {
+       background-color: #0388f5;
+       font-size: 25px;
+       color: white;
+       font-weight: bold;
+   }
+
+   td, th {
+       border: 1px solid #0388f5;
+       padding: 8px 20px;
+       /* 1 numero: para cima e para baixo. 2 numero: laterais */
+   }
+
+   /* CSS da página inicial */
+
+   .banner {
+       width: 100%;
+   }
+
+   .titulo-principal {
+       text-align: center;
+       font-weight: bold;
+       font-size: 2em;
+       /* medida proporcional para pixel. exemplo: a fonte base é de 15px, se colocarmos 2em, a fonte será de 30px */
+       margin: 1em 0 1em 0;
+       /* ordem das margens: cima, direita, baixo, esquerda */
+       clear: left;
+       /* limpa o float usado em .utensilios para que não impacte o que está abaixo do float (colocamos o clear a partir do objeto que não queremos que seja alterado */
+   }
+
+   .principal p {
+    margin-bottom: 1em;
+    line-height: 25px;
+   }
+
+   .principal strong {
+       font-weight: bold;
+   }
+
+   .principal em {
+       font-style: italic;
+   }
+
+   .imagembeneficios {
+       width: 60%;
+       border-radius: 7px;
+       float: right;
+   }
+
+   .utensilios {
+       width: 150px;
+       border-radius: 7px;
+       float: left;
+       margin: 10px 20px 20px 0;
+   }
+
+   footer {
+       text-align: center;
+       background: url("images-produtos/bg.jpg");
+       /* maneira de colocar uma imagem no footer */
+       padding: 40px;
+       clear: right;
+   }
+
+   .copyright {
+       color: white;
+       font-size: 13px;
+       margin-top: 20px;
+   }
