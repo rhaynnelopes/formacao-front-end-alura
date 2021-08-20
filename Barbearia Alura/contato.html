@@ -25,6 +25,15 @@
     </header>
 
     <main>
+
+        <!-- Criação de formulário:
+            1. Usa a tag <form>
+            2. Cria um Label (que referencia ao input e da o nome do campo)
+            3. Cria o input com o tipo de campo do formulário e com o id que é referenciado no label
+            Outras configurações:
+            Required: Obriga a resposta do campo
+            Placeholder=" ": Define o que vai aparecer pro usuario como exemplo do que inserir no campo
+         -->
         <form>
             <label for="nomesobrenome">Nome e sobrenome</label>
             <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome Sobrenome">
@@ -39,14 +48,18 @@
             <textarea cols="50" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
             <fieldset>
+                <!-- fieldset é como separamos componentes específicos do formulário-->
 
                 <legend>Como prefere o nosso contato?</legend>
 
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                <label for="radio-email"><input type="radio" name="contato" value="email"
+                        id="radio-email">E-mail</label>
 
-                <label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
+                <label for="radio-telefone"><input type="radio" name="contato" value="Telefone"
+                        id="radio-telefone">Telefone</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp"
+                        id="radio-whatsapp">Whatsapp</label>
 
             </fieldset>
 
@@ -59,7 +72,8 @@
                 </select>
             </fieldset>
 
-            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por
+                e-mail?</label>
 
             <input type="submit" value="Enviar formulário">
 
