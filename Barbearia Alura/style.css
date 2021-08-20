@@ -161,4 +161,16 @@
         border: 1px solid #0388f5 ;
         padding: 8px 20px ; /* 1 numero: para cima e para baixo. 2 numero: laterais */
     }
+
+    /* css da página inicial */
+    .banner {
+width: 100%;
+    }
+
+    .titulo-principal {
+        text-align: center;
+        font-size: 2em; /* medida proporcional para pixel. exemplo: a fonte base é de 15px, se colocarmos 2em, a fonte será de 30px */
+
+
+    }
     
