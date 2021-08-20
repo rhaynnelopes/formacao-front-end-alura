@@ -125,3 +125,21 @@
         margin: 20px 0;
         /* 20px pra cima e pra baixo e 0 pra esquerda e direita */
     }
+
+    .enviar { /* configuração visual do botão de enviar formulário */
+        width: 30%; /* configuração de largura do botão */
+        padding: 10px 0; /* espaçamento superior e inferior entre o texto e a borda */
+        background-color: #0388f5;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border: none; /* retirar a borda padrão */
+        border-radius: 3px; 
+        transition: 1s background; /* fazer com que a transição entre um background e outro seja mais devagar */
+        cursor: pointer; /* altera o cursor que aparece quando colocamos o mouse em cima do enviar formulário */
+    }
+
+    .enviar:hover { /* efeito ao passar o mouse em cima do botão de enviar formulário */
+        background-color: #005da8; 
+
+    }
