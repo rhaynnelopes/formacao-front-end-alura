@@ -145,3 +145,20 @@
         /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
 
     }
+
+    table{
+        margin: 40px 0 40px 0;
+        font-size: 20px;
+    }
+    thead {
+        background-color: #0388f5;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+    td, th { 
+        border: 1px solid #0388f5 ;
+        padding: 8px 15px ; /* 1 numero: para cima e para baixo. 2 numero: laterais/*
+
+    }
