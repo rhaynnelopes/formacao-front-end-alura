@@ -135,11 +135,13 @@
         font-size: 18px;
         border: none; /* retirar a borda padrão */
         border-radius: 3px; 
-        transition: 1s background; /* fazer com que a transição entre um background e outro seja mais devagar */
+        transition: 1s all; /* fazer com que a transição entre um background e outro seja mais devagar ou todos os efeitos (como a escala) */
         cursor: pointer; /* altera o cursor que aparece quando colocamos o mouse em cima do enviar formulário */
     }
 
     .enviar:hover { /* efeito ao passar o mouse em cima do botão de enviar formulário */
         background-color: #005da8; 
+        transform: scale(1.2);  /* aumenta proporcionalmente quando colocamos o mouse em cima (nesse caso, 20%) */
+        /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
 
     }
