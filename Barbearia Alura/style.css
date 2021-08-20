@@ -171,6 +171,8 @@ width: 100%;
         text-align: center;
         font-size: 2em; /* medida proporcional para pixel. exemplo: a fonte base é de 15px, se colocarmos 2em, a fonte será de 30px */
         margin-bottom: 1em;
+        /* ordem das margens: cima, direita, baixo, esquerda */
+        clear: left; /* limpa o float usado em .utensilios para que não impacte o que está abaixo do float (colocamos o clear a partir do objeto que não queremos que seja alterado */
     }
 
     .principal p {
@@ -187,5 +189,13 @@ width: 100%;
 
     .imagembeneficios {
         width: 60%;
+        border-radius: 7px;
+    }
+
+    .utensilios {
+        width: 120px;
+        border-radius: 7px;
+        float: left;
+        margin-right: 20px;
     }
     
