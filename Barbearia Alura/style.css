@@ -102,9 +102,8 @@
    /* CSS da página de contato */
 
    main {
-       text-align: center;
-       width: 100%;
-       margin: 0px 0;
+       width: 940px;
+       margin: 0px auto;
        
    }
 
