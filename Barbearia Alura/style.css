@@ -102,8 +102,9 @@
    /* CSS da página de contato */
 
    main {
-       width: 940px;
-       margin: 0 auto;
+       text-align: center;
+       width: 100%;
+       margin: 0px 0;
        
    }
 
@@ -116,10 +117,11 @@
    }
 
    form {
+       display: inline-block;
        margin: 40px 0;
        background-color:#005da8;
        border-radius: 10px;
-       padding: 40px 50px 40px 50px;
+       padding: 40px 100px 60px 70px;
        box-sizing: border-box;
 
        
@@ -141,8 +143,8 @@
    .input-padrao {
        display: block;
        margin-bottom: 20px;
-       padding: 15px 20px;
-       width: 35%;
+       padding: 20px 20px;
+       width: 100%;
        border: none;
        background-color: #ffffff;
        border-radius: 5px;
@@ -156,12 +158,12 @@
 
    .enviar {
        /* configuração visual do botão de enviar formulário */
-       width: 30%;
+       width: 50%;
        /* configuração de largura do botão */
        padding: 10px 0;
        /* espaçamento superior e inferior entre o texto e a borda */
-       background-color: #0388f5;
-       color: white;
+       background-color: #ffffff;
+       color:#005da8;
        font-weight: bold;
        font-size: 18px;
        border: none;
@@ -175,7 +177,8 @@
 
    .enviar:hover {
        /* efeito ao passar o mouse em cima do botão de enviar formulário */
-       background-color: #005da8;
+       background-color:#74aad6;
+       color: white
        /* transform: scale(1.2); */
        /* aumenta proporcionalmente quando colocamos o mouse em cima (nesse caso, 20%) */
        /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
