@@ -160,9 +160,9 @@
 
    .enviar {
        /* configuração visual do botão de enviar formulário */
-       width: 50%;
+       width: 30%;
        /* configuração de largura do botão */
-       padding: 10px 0;
+       padding: 15px 0;
        /* espaçamento superior e inferior entre o texto e a borda */
        background-color: #ffffff;
        color: #005da8;
