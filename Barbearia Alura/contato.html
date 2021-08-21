@@ -49,21 +49,20 @@
             <input type="tel" id="telefone " class="input-padrao" required placeholder="Telefone com DDD">
 
             <!--<label for="mensagem">Mensagem</label>-->
-            <textarea cols="50" rows="10" id="mensagem" class="input-padrao" required placeholder="Insira sua mensagem aqui"></textarea>
+            <textarea cols="1" rows="10" id="mensagem" class="input-padrao" required placeholder="Insira sua mensagem aqui"></textarea>
 
             <fieldset>
                 <!-- fieldset é como separamos componentes específicos do formulário-->
 
                 <legend>Como prefere o nosso contato?</legend>
 
-                <label for="radio-email"><input type="radio" name="contato" value="email"
-                        id="radio-email">E-mail</label>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" class="input-radio" >E-mail</label>
 
                 <label for="radio-telefone"><input type="radio" name="contato" value="Telefone"
-                        id="radio-telefone">Telefone</label>
+                        id="radio-telefone" class="input-radio">Telefone</label>
 
                 <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp"
-                        id="radio-whatsapp">Whatsapp</label>
+                        id="radio-whatsapp" class="input-radio">Whatsapp</label>
 
             </fieldset>
 
@@ -82,6 +81,8 @@
             <input type="submit" value="Enviar formulário" class="enviar">
 
         </form>
+
+        <h2 class="titulo-principal">Horário de atendimento</h2>
 
         <table>
             <!-- criação de tabela: 1. usar a tag table 2. usar a tag tr (linha) 3. usar a tag td (coluna) -->
@@ -107,7 +108,6 @@
                 </tr>
             </tbody>
         </table>
-
     </main>
 
     <footer>
