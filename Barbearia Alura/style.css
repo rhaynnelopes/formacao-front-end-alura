@@ -104,24 +104,50 @@
    main {
        width: 940px;
        margin: 0 auto;
+       
+   }
+
+   .titulo-formulario {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+    color: white;
    }
 
    form {
        margin: 40px 0;
+       background-color:#005da8;
+       border-radius: 10px;
+       padding: 40px 50px 40px 50px;
+       box-sizing: border-box;
+
+       
    }
 
    form label, form legend {
        display: block;
        font-size: 20px;
        margin-bottom: 10px;
+       color: white;
+       
+   }
+
+   form ::placeholder {
+       font-size: 20px;
+       color:#005da8;
    }
 
    .input-padrao {
        display: block;
        margin-bottom: 20px;
-       padding: 7px 20px;
+       padding: 15px 20px;
        width: 35%;
+       border: none;
+       background-color: #ffffff;
+       border-radius: 5px;
    }
+
 
    .checkbox {
        margin: 20px 0;
@@ -150,7 +176,7 @@
    .enviar:hover {
        /* efeito ao passar o mouse em cima do botão de enviar formulário */
        background-color: #005da8;
-       transform: scale(1.2);
+       /* transform: scale(1.2); */
        /* aumenta proporcionalmente quando colocamos o mouse em cima (nesse caso, 20%) */
        /* transform: rotate(70deg);  rotação de itens em graus. para usar o scale e rotate juntos, só usar os dois separados por espaço */
    }
