@@ -101,8 +101,7 @@
    /* CSS da página de contato */
 
    main {
-       width: 940px;
-       margin: 0px auto;
+
    }
 
    .titulo-formulario {
@@ -232,6 +231,13 @@
        margin: 17px 20px 20px 0;
    }
 
+   .principal {
+       padding: 3em 0;
+       background-color: #FFFFFF;
+       width: 940px;
+       margin: 0px auto;
+   }
+
    .principal p {
        margin-bottom: 1em;
        line-height: 25px;
@@ -245,8 +251,19 @@
        font-style: italic;
    }
 
+   .mapa-localizacao {
+    width: 940px;
+    margin: 0px auto;
+
+   }
    .mapa {
        padding: 3em 0;
+       /* criação de gradiente 
+       podemos definir a inclinação do gradiente usando [numero]deg
+       podemos definir o espaço que a cor ocupa colocando [numero]% ao lado da cor
+       pra gradiente redondo usamos radial-gradient*/
+       background: linear-gradient(#FFFFFF, #dfdfdf) 
+       
    }
 
    .mapa p {
@@ -257,6 +274,8 @@
 
    .beneficios {
     padding: 3em 0;
+    background-color: #dfdfdf;
+    
    }
 
    .conteudo-beneficios {
