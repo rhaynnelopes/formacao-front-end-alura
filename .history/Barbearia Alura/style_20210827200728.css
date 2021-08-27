@@ -277,10 +277,10 @@
    .itens:first-child { 
        /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
        tipos:
-       first-child: possibilita a formatação somente no primeiro item;
-       last-child: possibilita a formatação somente no último item;
-       nth-child(número do elemento): possibilita a formação somente do elemento n, que é passado no ( );
-       nth-child(2n): usa o valor de n pra operação. nesse caso, possibilita a formatação de todos os itens que estão em números pares (pode ser usado na marcação de tabelas de excel)*/  
+       first-child: realiza a formatação somente no primeiro item;
+       last-child: realiza a formatação somente no último item;
+       nt
+       usamos o first-child para atualizar o CSS somente do primeiro elemento (e o last-child para o último) sem precisar criar uma classe pra ele */  
     font-weight: bold;
 
    }

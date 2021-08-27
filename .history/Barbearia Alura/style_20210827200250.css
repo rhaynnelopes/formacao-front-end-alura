@@ -274,14 +274,7 @@
        line-height: 1.5;
    }
 
-   .itens:first-child { 
-       /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
-       tipos:
-       first-child: possibilita a formatação somente no primeiro item;
-       last-child: possibilita a formatação somente no último item;
-       nth-child(número do elemento): possibilita a formação somente do elemento n, que é passado no ( );
-       nth-child(2n): usa o valor de n pra operação. nesse caso, possibilita a formatação de todos os itens que estão em números pares (pode ser usado na marcação de tabelas de excel)*/  
-    font-weight: bold;
+   .itens:first-child {  
 
    }
 
