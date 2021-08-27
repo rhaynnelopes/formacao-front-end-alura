@@ -100,9 +100,6 @@
 
    /* CSS da página de contato */
 
-   main {
-
-   }
 
    .titulo-formulario {
        text-align: left;
@@ -224,6 +221,7 @@
        /* limpa o float usado em .utensilios para que não impacte o que está abaixo do float (colocamos o clear a partir do objeto que não queremos que seja alterado */
    }
 
+
    .utensilios {
        width: 160px;
        border-radius: 7px;
@@ -293,14 +291,37 @@
        line-height: 1.5;
    }
 
+   .itens:before {
+       content: "●  ";
+   }
+
    .itens:first-child { 
-       /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
-       tipos:
-       first-child: possibilita a formatação somente no primeiro item;
-       last-child: possibilita a formatação somente no último item;
-       nth-child(número do elemento): possibilita a formação somente do elemento n, que é passado no ( );
-       nth-child(2n): usa o valor de n pra operação. nesse caso, possibilita a formatação de todos os itens que estão em números pares (pode ser usado na marcação de tabelas de excel)*/  
     font-weight: bold;
+
+       /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
+       tipos lista:
+       first-child: formatação somente no primeiro item de uma lista;
+       last-child: formatação somente no último item de uma lista;
+       nth-child(número do elemento): formação somente do elemento n, que é passado no ( ) de uma lista;
+       nth-child(2n): usa o valor de n pra operação. nesse caso, possibilita a formatação de todos os itens que estão em números pares de uma lista (pode ser usado na marcação de tabelas de excel)
+       
+       tipos texto (podemos inserir textos sem mexer no html):
+       first-letter:  formatação somente da primeira letra 
+       first-line: formatação somente da primeira linha
+       before ( ): é usado em conjunto com o content: "[texto]" para inserir algo antes do texto principal
+       after ( ): é usado em conjunto com o content: "[texto]" para inserir algo depois do texto principal
+
+       exemplo (after, before)
+       .titulo-principal: before {
+           content: "["
+       }
+
+       .titulo-principal: after {
+            content: "]"
+       }
+
+       como ficaria no site: [Texto texto texto]
+       */  
 
    }
 
