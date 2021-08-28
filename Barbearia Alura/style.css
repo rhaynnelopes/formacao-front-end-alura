@@ -236,6 +236,35 @@
        margin: 0px auto;
    }
 
+   /* seletores avançados: 
+   marcação do elemento filho direto: usamos [parte do html] > [o que queremos marcar]
+
+     exemplo: 
+     main > p {
+    background: red; 
+
+    marcação do primeiro irmão (o que vem depois de uma imagem, por exemplo: usamos o +
+
+    exemplo: 
+    img + p { 
+    background: blue;
+
+    selecionar todos os parágrafos depois de uma imagem: usamos o ~
+
+    exemplo:
+    img ~ p {
+    background: yellow
+} 
+
+excluir algum item especifico (por exemplo um paragrafo): usamos [o que queremos marcar]:not([classe ou id]
+
+exemplo:
+.principal p:not(#missao) {
+    background: orange;
+}
+
+*/
+
    .principal p {
        margin-bottom: 1em;
        line-height: 25px;
