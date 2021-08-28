@@ -359,12 +359,34 @@
     }*/
        width: 60%;
        border-radius: 7px;
-       opacity: 1;
+       /* opacity: 1; */
+
+       /* sombras: 
+       usamos box-shadow para fazer sombra em uma box 
+       os atributos são: 
+       box-shadow: eixo X eixo Y blur (cor espalhada, usamos px para definir (opcional)) #cor 
+       
+       podemos usar duas sombras usando ,
+       exemplo:
+       
+       .imagem-beneficios {
+        width: 60%
+        opacity: 1;
+        transition: 400ms;
+        box-shadow: 10px 10px 5px #00000, -10px -10px yellow;
+
+        sombra para textos: usamos o text-shadow com eixo X, eixo Y e cor
+
+}
+       */
+       box-shadow: 10px 10px#005da8;
+       
    }
 
    .imagem-beneficios:hover {
-       opacity: 0.9;
-       transition: 1s;
+       /* opacity: 0.9; */
+       transition: 0.4s;
+       box-shadow: 10px 10px #74aad6;
    }
 
    .video {
