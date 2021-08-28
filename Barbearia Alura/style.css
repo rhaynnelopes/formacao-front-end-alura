@@ -397,6 +397,13 @@
        margin: 2em auto;
    }
 
+   /* configuração da versão mobile */
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+}
+
    footer {
        text-align: center;
        background: url("images-produtos/bg.jpg");
