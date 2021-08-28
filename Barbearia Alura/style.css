@@ -100,7 +100,6 @@
 
    /* CSS da página de contato */
 
-
    .titulo-formulario {
        text-align: left;
        font-weight: bold;
@@ -187,9 +186,8 @@
        font-size: 20px;
        text-align: center;
        box-sizing: border-box;
-        margin: 0 0 60px 25%;
+       margin: 0 0 60px 25%;
    }
-
 
    thead {
        background-color: #005da8;
@@ -220,7 +218,6 @@
        clear: left;
        /* limpa o float usado em .utensilios para que não impacte o que está abaixo do float (colocamos o clear a partir do objeto que não queremos que seja alterado */
    }
-
 
    .utensilios {
        width: 160px;
@@ -254,16 +251,14 @@
     exemplo:
     img ~ p {
     background: yellow
-} 
+    } 
 
-excluir algum item especifico (por exemplo um paragrafo): usamos [o que queremos marcar]:not([classe ou id]
+    excluir algum item especifico (por exemplo um paragrafo): usamos [o que queremos marcar]:not([classe ou id]
 
-exemplo:
-.principal p:not(#missao) {
-    background: orange;
-}
-
-*/
+    exemplo:
+    .principal p:not(#missao) {
+        background: orange;
+    } */
 
    .principal p {
        margin-bottom: 1em;
@@ -279,18 +274,17 @@ exemplo:
    }
 
    .mapa-localizacao {
-    width: 940px;
-    margin: 0px auto;
-
+       width: 940px;
+       margin: 0px auto;
    }
+
    .mapa {
        padding: 3em 0;
        /* criação de gradiente 
        podemos definir a inclinação do gradiente usando [numero]deg
        podemos definir o espaço que a cor ocupa colocando [numero]% ao lado da cor
        pra gradiente redondo usamos radial-gradient*/
-       background: linear-gradient(#FFFFFF, #dfdfdf) 
-       
+       background: linear-gradient(#FFFFFF, #dfdfdf)
    }
 
    .mapa p {
@@ -298,11 +292,9 @@ exemplo:
        margin: 0 0 2em;
    }
 
-
    .beneficios {
-    padding: 3em 0;
-    background-color: #dfdfdf;
-    
+       padding: 3em 0;
+       background-color: #dfdfdf;
    }
 
    .conteudo-beneficios {
@@ -324,9 +316,9 @@ exemplo:
        content: "●  ";
    }
 
-   .itens:first-child { 
-    font-weight: bold;
-
+   .itens:first-child {
+       font-weight: bold;
+       
        /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
        tipos lista:
        first-child: formatação somente no primeiro item de uma lista;
@@ -350,15 +342,13 @@ exemplo:
        }
 
        como ficaria no site: [Texto texto texto]
-       */  
-
+       */
    }
 
    .imagem-beneficios {
        width: 60%;
        border-radius: 7px;
    }
-
 
    .video {
        width: 560px;
