@@ -318,7 +318,7 @@
 
    .itens:first-child {
        font-weight: bold;
-       
+
        /* pseudo-elemento: usamos para fazer marcações em lugares específicos de uma classe sem precisar criar outra classe pra ele
        tipos lista:
        first-child: formatação somente no primeiro item de uma lista;
@@ -345,9 +345,26 @@
        */
    }
 
-   .imagem-beneficios {
+   .imagem-beneficios { /*uso da opacidade: opacity (0 - invisível > 1 - 100% visível)
+    
+    para cores, podemos utilizar mais uma camada - a de opacidade, chamada alfa - nas cores em RGB. para isso, utilizamos o rgba, e então defininimos os valores que quisermos
+    
+    exemplo:
+    .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgb(0,0,0,0.3);
+    }*/
        width: 60%;
        border-radius: 7px;
+       opacity: 1;
+   }
+
+   .imagem-beneficios:hover {
+       opacity: 0.9;
+       transition: 1s;
    }
 
    .video {
